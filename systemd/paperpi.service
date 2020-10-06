@@ -1,0 +1,9 @@
+[nit]
+Description=PaperPI
+
+[Service]
+Type=simple
+ExecStart=/home/alarm/paperpi/paperpi.sh &
+
+[Install]
+WantedBy=multi-user.target
